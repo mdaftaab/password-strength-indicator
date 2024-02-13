@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.box{
+    width: 400px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    flex-direction: column;
+}
+input{
+    width: 95%;
+    height: 45px;
+    margin: 0 auto;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #000;
+    font: 1.5em sans-serif;
+}
+#output {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #000;
+}
+.progress{
+    width: 0%;
+    height: 10px;
+    background-color: #ddd;
+    border-radius: 10px;
+    margin-left: 12px;
+    margin-top: 10px;
+    transition: all 0.5s;
+}
